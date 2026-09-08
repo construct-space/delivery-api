@@ -1,0 +1,13 @@
+.env
+*.db
+node_modules
+dist
+bun.lock
+
+# Firebase service-account JSON (FCM admin credentials). Treat like a
+# password — anyone with this file can send push to every Construct
+# Mobile device. Set FCM_CREDENTIALS_FILE in the deploy env to point at
+# this file's runtime location; never commit it.
+*firebase-adminsdk*.json
+firebase-adminsdk*.json
+fcm-credentials.json
